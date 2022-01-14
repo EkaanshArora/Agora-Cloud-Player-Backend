@@ -1,0 +1,22 @@
+{
+    "name": "Agora Cloud Player Server",
+    "description": "An example of a simple Node/Express server that can invoke cloud player",
+    "logo": "https://www.agora.io/en/wp-content/themes/agora-2020/images/agora-logo.svg",
+    "website": "https://www.agora.io",
+    "repository": "https://github.com/EkaanshArora/Agora-Node-CloudPlayer",
+    "keywords": ["node", "express", "agora",  "cloudplayer", "server"],
+    "env": {
+        "APP_ID": {
+          "description": "Agora App ID: Login to the Agora.io Developer Dashboard (http://dashboard.agora.io), and navigate to the \"Projects\" tab to get this value",
+          "required": true
+        },
+        "REST_KEY": {
+          "description": "Agora RESTful API Key: Login to the Agora Developer Dashboard (http://dashboard.agora.io), and navigate to the \"RESTful API\" menu to get this value",
+          "required": true
+        },
+        "REST_SECRET": {
+          "description": "Agora RESTful API Secret: Login to the Agora Developer Dashboard (http://dashboard.agora.io), and navigate to the \"RESTful API\" menu to get this value",
+          "required": true
+        }
+      }
+  }
